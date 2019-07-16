@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Custom Sender Web</title>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2 col-md-1">
+                <google-cast-launcher></google-cast-launcher>
+            </div>
+            <div class="col-10 col-md-11">
+                <div class="input-group my-3">
+                    <input type="text" class="form-control" id="message">
+                    <div class="input-group-append">
+                        <button id="sendMessage" class="btn btn-primary" type="button">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
